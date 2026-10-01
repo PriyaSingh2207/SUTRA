@@ -1,8 +1,17 @@
-﻿# SUTRA Ignore List
+# SUTRA Ignore List
 ScrapWala-main/
 node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+backend/.venv/
+backend/__pycache__/
 *.pyc
 __pycache__/
 .env
 .DS_Store
 Thumbs.db
+
+# Large generated data (generated on demand via data_generator.py)
+backend/data/*.csv
+
